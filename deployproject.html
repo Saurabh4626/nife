@@ -390,11 +390,9 @@ input[type="file"]{opacity: 0}
 </div>
 <div id="mySidebar" class="sidebar">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="#"><i class="fas fa-mail-bulk"></i></a>
-  <a href="#"><i class="fa fa-angle-double-left"></i></a>
-  <a href="#"><i class="fa fa-address-card-o"></i></a>
-  <a href="#"><i class="fas fa-bell"></i></a>
-  <a href="#"><i class="fa fa-spinner fa-spin"></i></a>
+  <a href="#"><i class="fas fa-mail-bulk"></i><small>CONFIGURATION</small></a>
+  <a href="#"><i class="fa fa-address-card-o"></i><small>DEPLOY</small></a>
+  <a href="#"><i class="fad fa-monitor-heart"></i><small>MONITORING</small></a>
 </div>
 <script type="text/javascript">
 function openNav() {
@@ -436,46 +434,47 @@ function closeNav() {
     <table  class="table table-hover text-centered" border="2px" style="border-radius: 10px;text-align: center;">
         <thead>
             <tr>
-                <th><b>Name</b></th>
-                <th><b>Image  </b></th>
+                <th><b>Image</b></th>
+                <th><b> Name </b></th>
+                <th><b>IP Address</b></th>
                 <th><b>Region</b></th>
+                <th><b>Latency(MS)</b></th>
                 <th><b>Status</b></th>                
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>                
+                <td>Image-1</td>
+                <td>NLP-APP</td>
+                <td>17.2.63.1</td>
+                <td>Region A</td>
+                <td>23.5</td>
+                <td>UP</td>                                
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>                
+                <td>Image-2</td>
+                <td>docker-yoto</td>
+                <td>15.14.53.2</td>
+                <td>Region B</td>
+                <td>36.2</td>
+                <td>UP</td>                                
             </tr>
         </tbody>
         <tbody>
             <tr>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>                
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>
-                <td>temp</td>                
+                <td>Image-3</td>
+                <td>Voice-bot</td>
+                <td>43.53.61.2</td>
+                <td>Region C</td>
+                <td>18.3</td>
+                <td>DOWN</td>                                
             </tr>
         </tbody>           
     </table>
 </div>
+<button class="openbtn" >OK</button>
 <br><br>
   
   <!-- footer -->
